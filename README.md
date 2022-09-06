@@ -1,7 +1,7 @@
 # Longer Validator
-This module is small but easy to use. The purpose of this module is to check if a target string is longer than the source string, it can optionally also check if the source and target is the same length.
+This module is small but easy to use. The purpose of this module is to check if a target string is longer than the source string, it can optionally also check if the source and target is the same length. It can compare strings and arrays.
 ## Validation processes
-The code checks that the source value is longer than the target and optional if they are equal length.
+The code checks that the source value is longer in length than the target and optional if they are equal length.
 ### Compare method 1
 This method compare both source value and target value length to see if source length is the longest.
 ### Compare method 2
@@ -46,18 +46,19 @@ Testing Condition 12 Passed = true
 ```
 @param  { String , Array } source        The source value to be checked
 @param  { String , Array } target        The target value to be checked
-@param  { Boolean        } equel         Check if value is equel as well ( optional , default = false )
-@return { Boolean        }               The string passed/failed validation
+@param  { Boolean        } equal         Check if value is equal as well ( optional , default = false )
+@return { Boolean        }               Validation passed or failed
 ```
 ## Version History
 | Version  | Date                   | Remark                              |
 |----------|------------------------|-------------------------------------|
 | 1.0.0    | 04 September 2022      | Official first release              |
+| 1.0.1    | 06 September 2022      | Correcting documentation            |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/longervalidator
 ## Operating Systems Tested On
->Windows and Linux
+>Windows, Linux and RaspberryPi
 ## License Information
 LongerValidator © 2022 by Adriaan J. van Rensburg (CreepyCoderMC) is licensed under CC BY-NC-ND 4.0.
 > To view a online copy of this license, visit [http://creativecommons.org/licenses/by-nc-nd/4.0/](http://creativecommons.org/licenses/by-nc-nd/4.0/)

@@ -228,12 +228,13 @@
  /*     VERSION HISTORY
   *
   *     1.0.0       04 September 2022           Official first release
+  *     1.0.1       06 September 2022           Correcting documentation
   */
 
  /* Validates if a target value is longer than the source
-  * @param  { string , array } source        The source value to be checked
-  * @param  { string , array } target        The target value to be checked
-  * @param  { Boolean        } equal         Check if value is equel as well ( optional , default = false )
+  * @param  { String , Array } source        The source value to be checked
+  * @param  { String , Array } target        The target value to be checked
+  * @param  { Boolean        } equal         Check if value is equal as well ( optional , default = false )
   * @return { Boolean        }               Validation passed or failed
   */
 
