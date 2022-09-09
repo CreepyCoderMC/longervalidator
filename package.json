@@ -35,17 +35,6 @@
 
   "scripts": {
     "test":       "node test.js"
-  },
-
-  "engines": {
-    "node":       ">=10",
-    "npm":        ">=6"
-  },
-
-  "os": [
-                  "windows",
-                  "linux",
-                  "raspberrypi"
-  ]
+  }
 
 }
