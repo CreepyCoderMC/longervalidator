@@ -231,16 +231,18 @@
   *     1.0.1       06 September 2022           Correcting documentation
   *     1.0.2       09 September 2022           Fixed package.json so that npm can install on any os
   *     1.0.3       09 September 2022           Fixed package.json so that npm can install on any os
+  *     1.0.4       10 September 2022           Fixed code to be proper npm packadge
   */
 
  /* Validates if a target value is longer than the source
   * @param  { String , Array } source        The source value to be checked
   * @param  { String , Array } target        The target value to be checked
   * @param  { Boolean        } equal         Check if value is equal as well ( optional , default = false )
+  * 
   * @return { Boolean        }               Validation passed or failed
   */
 
-export default function valueIsLonger( source , target , equal = false ) {
+export function valueIsLonger( source , target , equal = false ) {
 
     // Checks if source and target are equal if specified 
     if( equal ) {

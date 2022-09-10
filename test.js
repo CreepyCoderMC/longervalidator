@@ -1,4 +1,4 @@
-import valueIsLonger from './longervalidator.js';
+import valueIsLonger from '@teamcoder/longervalidator';
 
 var array1 = [ 1 , 2 , 3 , 4 , 5 ];
 var array2 = [ 1 , 2 , 3 , 4 ];

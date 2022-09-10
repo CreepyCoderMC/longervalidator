@@ -9,7 +9,7 @@ This method can also check if the source length is equal to target length.
 ## Code sample
 This following code is actually how I tested that all methods correctly functioned as intended, is also provided in this module.
 ```
-import valueIsLonger from './node_modules/@teamcoder/longervalidator/longervalidator.js';
+import valueIsLonger from '@teamcoder/longervalidator';
 
 var array1 = [ 1 , 2 , 3 , 4 , 5 ];
 var array2 = [ 1 , 2 , 3 , 4 ];
@@ -47,6 +47,7 @@ Testing Condition 12 Passed = true
 @param  { String , Array } source        The source value to be checked
 @param  { String , Array } target        The target value to be checked
 @param  { Boolean        } equal         Check if value is equal as well ( optional , default = false )
+
 @return { Boolean        }               Validation passed or failed
 ```
 ## Version History
@@ -56,6 +57,7 @@ Testing Condition 12 Passed = true
 | 1.0.1    | 06 September 2022      | Correcting documentation                              |
 | 1.0.2    | 09 September 2022      | Fixed package.json so that npm can install on any os  |
 | 1.0.3    | 09 September 2022      | Fixed package.json so that npm can install on any os  |
+| 1.0.4    | 10 September 2022      | Fixed code to be proper npm packadge                  |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/longervalidator
