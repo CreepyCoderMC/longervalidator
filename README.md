@@ -60,6 +60,7 @@ Testing Condition 12 Passed = true
 | 1.0.4    | 10 September 2022      | Fixed code to be proper npm package                   |
 | 1.0.5    | 10 September 2022      | File test.js was modified                             |
 | 1.0.6    | 10 September 2022      | Correcting documentation                              |
+| 1.0.7    | 10 September 2022      | Correcting documentation                              |
 ## How To Install
 Run the following command in a terminal or command prompt in the folder you want to install the module to.
 > npm i @teamcoder/longervalidator
