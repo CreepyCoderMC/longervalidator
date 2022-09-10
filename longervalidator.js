@@ -233,6 +233,7 @@
   *     1.0.3       09 September 2022           Fixed package.json so that npm can install on any os
   *     1.0.4       10 September 2022           Fixed code to be proper npm packadge
   *     1.0.5       10 September 2022           File test.js was modified
+  *     1.0.6       10 September 2022           Correcting documentation
   */
 
  /* Validates if a target value is longer than the source
@@ -243,7 +244,7 @@
   * @return { Boolean        }               Validation passed or failed
   */
 
-export function valueIsLonger( source , target , equal = false ) {
+export default function valueIsLonger ( source , target , equal = false ) {
 
     // Checks if source and target are equal if specified 
     if( equal ) {
