@@ -235,7 +235,8 @@
   *     1.0.5       10 September 2022           File test.js was modified
   *     1.0.6       10 September 2022           Correcting documentation
   *     1.0.7       10 September 2022           Correcting documentation
-  */
+  *     1.0.8       11 September 2022           Removed Default from export function in longervalidator.js file
+ */
 
  /* Validates if a target value is longer than the source
   * @param  { String , Array } source        The source value to be checked
@@ -245,7 +246,7 @@
   * @return { Boolean        }               Validation passed or failed
   */
 
-export default function valueIsLonger ( source , target , equal = false ) {
+export function valueIsLonger ( source , target , equal = false ) {
 
     // Checks if source and target are equal if specified 
     if( equal ) {
